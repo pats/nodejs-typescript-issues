@@ -1,10 +1,14 @@
 {
-  "name": "nodejs-typescript-issues",
+  "name": "@morriq/nodejs-typescript-issues",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/throw-async.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "start": "tsc --watch",
+    "build": "tsc",
     "throw-async": "node --watch --enable-source-maps dist/throw-async.js"
   },
   "type": "module",
