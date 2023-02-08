@@ -1,10 +1,14 @@
 {
-  "name": "nodejs-typescript-issues",
-  "version": "1.0.0",
+  "name": "morriq-nodejs-typescript-issues",
+  "version": "1.0.3",
   "description": "",
-  "main": "index.js",
+  "main": "dist/throw-async.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "start": "tsc --watch",
+    "build": "tsc",
     "throw-async": "node --watch --enable-source-maps dist/throw-async.js"
   },
   "type": "module",
@@ -12,6 +16,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "morriq-nodejs-typescript-issues": "1.0.3",
     "typescript": "^4.9.5"
   },
   "devDependencies": {
