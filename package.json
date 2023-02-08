@@ -1,5 +1,5 @@
 {
-  "name": "@morriq/nodejs-typescript-issues",
+  "name": "morriq-nodejs-typescript-issues",
   "version": "1.0.0",
   "description": "",
   "main": "dist/throw-async.js",
