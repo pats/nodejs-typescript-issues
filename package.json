@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-typescript-issues",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc --watch",
+    "throw-async": "node --watch --enable-source-maps dist/throw-async.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@types/node": "^18.13.0"
+  }
+}
